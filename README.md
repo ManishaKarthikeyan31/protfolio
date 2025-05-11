@@ -40,7 +40,7 @@ Hi there! I'm **Manisha Karthikeyan**, a passionate and detail-oriented **Front-
 
 ## 📫 Contact Me
 
-- 📧 Email: sha@example.com
+- 📧 Email: manishakarthikeyan310@gmail.com
 - 📍 Location: thiruvarur, India
 - 💼 GitHub: [@ManishaKarthikeyan31](https://github.com/ManishaKarthikeyan31/protfolio)
 
