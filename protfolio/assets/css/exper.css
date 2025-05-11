@@ -1,0 +1,68 @@
+
+/* Reset some default styles */
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Georgia', serif;
+  background-color: rgba(0, 0, 0, 0.8); /* transparent dark green */
+  background-image: url('../images/pexels-sheep-556180-1846422.jpg'); /* Set your image path */
+  background-size: cover; /* Ensure the background covers the screen */
+  background-position: center center; /* Center the background image */
+  background-attachment: fixed; /* Keep the background fixed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure full viewport height */
+  text-align: center; /* Center all text in the body */
+}
+
+.card {
+  background-color: rgba(81, 54, 68, 0.974); /* transparent background for card */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0.1 4px 8px rgba(50, 45, 45, 0.3); /* subtle shadow for readability */
+  max-width: 900px; /* Limit the card's width */
+  width: 100%; /* Ensure it takes up the full available width */
+  box-sizing: border-box;
+  text-align: left; /* Align the text inside the card to the left */
+}
+
+.title {
+  color: #fbe7d2;
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  color: #f7eddc;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.skills-list, .project-list {
+  list-style-type: none;
+  padding: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+.skills-list li, .project-list li {
+  margin: 10px 0;
+}
+
+.content {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.content {
+  opacity: 1;
+}
+
+.project-list li strong {
+  color: #fbe7d2;
+}
+

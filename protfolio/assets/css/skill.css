@@ -1,0 +1,56 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Georgia', serif;
+  background-color: rgba(7, 52, 17, 0.8); /* transparent dark green */
+  background-image: url('../images/elegant-teal-floral-wallpaper-with-intricate-patterns-for-home-decor-and-design-projects-photo.jpg');
+  background-size: cover; /* Ensure the background covers the entire screen */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Make sure the background stays fixed while scrolling */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
+.card {
+  background-color: rgba(11, 15, 3, 0.7); /* transparent background for card */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* subtle shadow for readability */
+  max-width: 600px; /* Limit width for better layout */
+  width: 100%; /* Ensure it takes up the full available width, within the max-width */
+}
+
+.title {
+  color: #fff; /* White text for the title */
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  color: #fff; /* White text for the list */
+}
+
+.skills-list li {
+  margin: 5px 0;
+}
+
+.content {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  color: #f7eddc;
+}
+
+.card:hover .content {
+  opacity: 1;
+}
+
+.title {
+  font-size: 48px;
+  color: #fbe7d2;
+  margin-bottom: 25px;
+  text-align: center;
+  letter-spacing: 2px;
+}

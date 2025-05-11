@@ -1,0 +1,56 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Georgia', serif;
+  background-image: url('../images/illustration-of-a-large-dark-green-leaf-with-soft-neon-light-a-rectangular-green-water-led-frame-light-for-natural-backgrounds-700-261443100.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  width: 90%;
+  max-width: 500px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.title {
+  color: #ffe8c2;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.contact-item i {
+  margin-right: 15px;
+  color: #ffe8c2;
+  font-size: 22px;
+  width: 30px;
+  text-align: center;
+}
+
+.content {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.content {
+  opacity: 1;
+}
